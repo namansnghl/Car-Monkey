@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("cont_back.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1000px;
+    z-index: -1;
+}
+.container-box{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0.472);
+    min-height: 600px;
+    border-radius: 20px;
+    width: 700px;
+    display: block;
+}
+.container-box>.center{
+    text-align: center;
+}
+.container-box>.pad{
+    padding: 20px;
+}
+.font{
+    font-family: "montserrat-semibold", sans-serif;
+    text-align: center;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+.floatL{
+    position: absolute;
+    left: 400px;
+    top: 0;
+    color: #fff; 
+}
+.floatR{
+    position: absolute;
+    top:0;
+    left:180px;
+    color: #fff;
+}
+.login-container{
+position: inherit;
+top:160px;
+left: 50px;
+}
+.login-container>h1, .signup-container>h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 6px solid #83b685;
+    width: 80px;
+    margin-bottom:50px; 
+    color:mintcream;
+}
+.textbox,.passbox{
+    margin-bottom: 30px;
+    border-bottom: 2px solid #83b685;
+    width: 250px;
+}
+.textbox>input, .passbox>input{
+    margin-bottom: 10px;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    width: 180px;
+    font-size: 15px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.textbox>i , .passbox>i{
+    color: #fff;
+}
+.btn{
+    background: none;
+    border: 2px solid #83b685;
+    width: 100%;
+    color: #fff;
+    padding: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btn:hover{
+    color: #a8eeab;
+    background: #92d4bb5b;
+}
+
+.signup-container{
+    position: inherit;
+    top:140px;
+    left:395px;
+}
+#button-home{
+    background: none;
+    border: 2px solid #83b685;
+    width: 150px;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+#button-home:hover{
+    background: #92d4bb5b;
+    color: #fff;
+}

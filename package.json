@@ -1,0 +1,19 @@
+{
+  "name": "carmonkey",
+  "version": "1.0.0",
+  "description": "A car service portal. Created as a practice project taken up by the author located in India - Bangalore.",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "html": "^1.0.0",
+    "mongoose": "^5.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Naman Singhal",
+  "license": "ISC"
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="India's best car service portal online">
+        <meta name="author" content="Naman Singhal">
+        <meta name="keywords" content="car, service, India, Garage, Online, car monkey, project, html, css,">
+        
+        <link rel="icon" type="image/x-icon" href="logo.png" />
+        <title>CAR-MONKEY - Login|Sign Up</title>
+        <!--
+            Stylesheet
+        -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="loginstyle.css">
+</head>
+<body>
+    <main class="container-box">
+        <div class="font floatR pad">
+            <p>car</p>
+        </div>
+        <div class="center pad">
+            <img src="logo.png" alt="CAR-MONKEY" width="85px">
+        </div>
+        <div class="font floatL pad">
+            <p>monkey</p>
+        </div>
+        <hr width="1" size="400px" color="white">
+        
+        <div class="login-container">
+            <h1>Login</h1>
+
+
+            <form action="/login" method="GET">
+            <div class="textbox">
+                <i class="fa fa-lg fa-user" aria-hidden="true"></i>&nbsp;
+                <input type="text" placeholder="USERNAME" value="" name="" required>
+            </div>
+            <div class="passbox">
+                <i class="fa fa-lg fa-lock" aria-hidden="true"></i>&nbsp;
+                <input type="password" placeholder="PASSWORD" value="" name="" required>
+            </div>
+            <input class="btn" type="submit" value="LOGIN" name="login" id="button-login">
+        </form>
+
+            <aside>
+                <br/><br/><br/><br/><br/>
+                <input  type="button" value="Back to Homepage" name="login" id="button-home" onclick="window.location.href = '/';">
+            </aside>
+        </div>
+
+        <div class="signup-container">
+                <h1>SignUp</h1>
+            <form action="/signup" method="POST">
+
+                    <div class="textbox">
+                        <i class="fa fa-lg fa-user" aria-hidden="true"></i>&nbsp;
+                        <input type="text" placeholder="USERNAME" value="" name="signupUsername" required>
+                    </div>
+                    <div class="passbox">
+                        <i class="fa fa-lg fa-lock" aria-hidden="true"></i>&nbsp;
+                    <input type="password" placeholder="NEW - PASSWORD" value="" name="signupPassword" required>
+                </div>
+                <div class="passbox">
+                    <i class="fa fa-lg fa-lock" aria-hidden="true"></i>&nbsp;
+                    <input type="password" placeholder="RETYPE - PASSWORD" value="" name="signupPassword2" required>
+                </div>
+                <input class="btn" type="submit" value="SIGN UP" name="login" id="button-signup">
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>
