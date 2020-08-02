@@ -1,4 +1,13 @@
 # Car Monkey
+
+After the server is online with url : “*localhost:3000*” the homepage loads:
+
+![img](https://lh6.googleusercontent.com/pmjzmZcN8PGbOiI5PZI-h-c_zVt2EpVmlOaeZSplnLeZq2sLRIciPOv4PAO3mrw0D0S5DJOAUVxkd5jhRjLM7-h4cvqZDbuJWy9XhlmlZdeAWk6DYhIJvB5j3d6yBLH3HHeipQlE)
+
+The Login Page:
+
+![img](https://lh4.googleusercontent.com/srNQ66TK0W7D2muisb5JiByoTqFJGEFwDVPas96kbNKRnFZoexcrXkfjekzv50oL50Nc-xNztiUOMk9ekxXWo6S8Gsg4F85YKTYMXB2_Ia_J4pxIfM2g4ExxnEb6BM5CzqAs4NTR)
+
 #### ABOUT STACK:
 The web app is developed with HTML, CSS and basic Javascript as frontend. NodeJS, ExpressJS Framework  and MongoDB as backends.
 ### HARDWARE SPECIFICATIONS:
@@ -17,9 +26,6 @@ Minimum 500GB storage
  - ejs (package)
  - express (Framework)
  - mongoose (package)
-
-
-{IMAGE}
 
 ### MODULE LIST
 - APP
