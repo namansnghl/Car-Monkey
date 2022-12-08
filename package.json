@@ -4,9 +4,9 @@
   "description": "A car service portal. Created as a practice project taken up by the author located in India - Bangalore.",
   "main": "app.js",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "ejs": "^2.7.1",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "html": "^1.0.0",
     "mongoose": "^5.7.5"
   },
